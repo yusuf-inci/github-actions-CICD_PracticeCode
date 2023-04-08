@@ -21,3 +21,14 @@ Once you configure your workflow.yml The pipeline will run automatically when yo
 - flake8 service --count --max-complexity=10 --max-line-length=127 --statistics
 Unlike the first command that checks for syntax errors only, the second command will run all the available checks on the service folder of your repository.
 
+## Tekton
+- Create task and pipeline yaml then run
+ $ kubectl apply -f tasks.yaml
+ $ kubectl apply -f pipeline.yaml
+ $ tkn pipeline start hello-pipeline \
+    --showlog  \
+    -p message="Hello Tekton!"
+ $ tkn pipeline start cd-pipeline \
+    --showlog \
+    -p repo-url="https://github.com/yusuf-inci/github-actions-CICD_PracticeCode.git" \
+    -p branch="main"
