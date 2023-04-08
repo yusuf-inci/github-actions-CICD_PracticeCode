@@ -7,5 +7,8 @@ Create personal access token to authenticate with GitHub. The minimum required s
 - If working in the terminal becomes difficult because the command prompt is very long, you can shorten the prompt using the following command:
 $ export PS1="[\[\033[01;32m\]\u\[\033[00m\]: \[\033[01;34m\]\W\[\033[00m\]]\$ "
 
+## Create a Workflow
+mkdir -p .github/workflows
+touch .github/workflows/workflow.yml
 
 
