@@ -17,6 +17,5 @@ This repository contains the practice code for the labs in **IBM-CD0215EN-Skills
 ## Instructor
 
 John Rofrano, Senior Technical Staff Member, DevOps Champion, @ IBM Research
-test line for github actions
 
 ## <h3 align="center"> © IBM Corporation 2022. All rights reserved. <h3/>
