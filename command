@@ -40,3 +40,9 @@ Unlike the first command that checks for syntax errors only, the second command 
 - Check that it was created correctly.
  $ tkn eventlistener ls
 
+- create triggerbinding.yaml
+- Apply the new TriggerBinding definition to the cluster:
+ $ kubectl apply -f triggerbinding.yaml
+
+ 
+
