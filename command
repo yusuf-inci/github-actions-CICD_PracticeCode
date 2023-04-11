@@ -44,5 +44,11 @@ Unlike the first command that checks for syntax errors only, the second command 
 - Apply the new TriggerBinding definition to the cluster:
  $ kubectl apply -f triggerbinding.yaml
 
- 
+- create triggertemplate.yaml
+- Apply the new TriggerTemplate definition to the cluster:
+ $ kubectl apply -f triggertemplate.yaml
+
+
+
+
 
