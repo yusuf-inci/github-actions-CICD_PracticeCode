@@ -32,3 +32,11 @@ Unlike the first command that checks for syntax errors only, the second command 
     --showlog \
     -p repo-url="https://github.com/yusuf-inci/github-actions-CICD_PracticeCode.git" \
     -p branch="main"
+
+### lab2
+- create eventlistener.yaml
+- Apply the EventListener resource to the cluster:
+ $ kubectl apply -f eventlistener.yaml
+- Check that it was created correctly.
+ $ tkn eventlistener ls
+
